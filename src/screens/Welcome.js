@@ -12,7 +12,7 @@ import WelcomeImage from '../images/welcome-0.png';
 import LinearGradient from 'react-native-linear-gradient';
 import Animated, {Keyframe} from 'react-native-reanimated';
 
-const Welcome = () => {
+const Welcome = ({navigation}) => {
   const keyframe = new Keyframe({
     0: {
       transform: [{translateX: -100}],
@@ -51,12 +51,12 @@ const Welcome = () => {
         <View style={styles.buttonContainer}>
           <Pressable
             style={styles.Button}
-            onPress={() => {
-              console.log('Button Pressed');
-            }}>
+            onPress={() => navigation.navigate('Signin')}>
             <Text style={{color: '#000', fontSize: 18}}> Login </Text>
           </Pressable>
-          <Pressable style={styles.Button}>
+          <Pressable
+            style={styles.Button}
+            onPress={() => navigation.navigate('Signup')}>
             <Text style={{color: '#000', fontSize: 18}}> Sign up </Text>
           </Pressable>
         </View>

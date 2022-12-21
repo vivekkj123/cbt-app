@@ -1,4 +1,4 @@
-package com.cbtapp.newarchitecture;
+package com.scet.cbtapp.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.cbtapp.BuildConfig;
-import com.cbtapp.newarchitecture.components.MainComponentsRegistry;
-import com.cbtapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.scet.cbtapp.BuildConfig;
+import com.scet.cbtapp.newarchitecture.components.MainComponentsRegistry;
+import com.scet.cbtapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

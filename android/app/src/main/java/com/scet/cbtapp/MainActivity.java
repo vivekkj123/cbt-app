@@ -1,4 +1,4 @@
-package com.cbtapp;
+package com.scet.cbtapp;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
