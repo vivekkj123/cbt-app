@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "603044409401",
-    "project_id": "cbt-app-69351",
-    "storage_bucket": "cbt-app-69351.appspot.com"
+    "project_number": "18659298779",
+    "project_id": "bt-app-f49f4",
+    "storage_bucket": "bt-app-f49f4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:603044409401:android:c4f088c988e8572f055de8",
+        "mobilesdk_app_id": "1:18659298779:android:e45eecd910e15d9b036bfe",
         "android_client_info": {
           "package_name": "com.scet.cbtapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "603044409401-i9u6v7a6k5k7jadijepnbo3fu1te1u94.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBgwUHyUQpvJJQSz62anlcb2yU78ubMK2M"
+          "current_key": "AIzaSyBUST_6WFO7X_JzM2o7R37vyK5UVFsaP-c"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "603044409401-i9u6v7a6k5k7jadijepnbo3fu1te1u94.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

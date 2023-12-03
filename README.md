@@ -2,9 +2,9 @@
 ![Logo](./doc/logo.png)
 
 
-# CBT (Cloth, Book, Trash) APP 
+# BT (Book, Trash) APP 
 
-React Native App for donating/selling used or unused clothes and books and for requesting a doorstep trash pickup.
+React Native App for donating/selling books and for requesting a doorstep trash pickup.
 
 ## Screenshots
 

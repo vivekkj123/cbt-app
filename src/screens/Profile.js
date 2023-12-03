@@ -20,7 +20,7 @@ const Profile = () => {
         </Button>
       </View>
       <View>
-        <Text style={styles.Text}>Help Centre: +91 8281 0136 94</Text>
+        <Text style={styles.Text}>Help Centre: +91 12345 67890</Text>
         <Image
           resizeMode="center"
           resizeMethod="resize"

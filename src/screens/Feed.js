@@ -1,13 +1,11 @@
-import {ScrollView, StyleSheet, Text, View} from 'react-native';
-import React, {useEffect, useState} from 'react';
-import Icon from 'react-native-vector-icons/Ionicons';
-import {FloatingAction} from 'react-native-floating-action';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import firestore from '@react-native-firebase/firestore';
 import {NavigationContainer} from '@react-navigation/native';
-import CreatePost from './createPost';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import React, {useEffect, useState} from 'react';
+import {ScrollView, StyleSheet} from 'react-native';
 import {FAB} from 'react-native-paper';
 import CardComponent from './CardComponent';
-import firestore from '@react-native-firebase/firestore';
+import CreatePost from './createPost';
 
 const FeedHome = ({navigation}) => {
   const [OpenState, setOpenState] = useState(false);
@@ -16,14 +14,6 @@ const FeedHome = ({navigation}) => {
     setOpenState(!OpenState);
   };
   const actions = [
-    {
-      label: 'Sell Cloth',
-      icon: 'tshirt-crew',
-      onPress: () =>
-        navigation.navigate('createPost', {
-          type: 'cloth',
-        }),
-    },
     {
       label: 'Sell Book',
       icon: 'book',

@@ -8,7 +8,7 @@ import {
   View,
 } from 'react-native';
 import React from 'react';
-import WelcomeImage from '../images/welcome-0.png';
+import WelcomeImage from '../images/welcome-0.webp';
 import LinearGradient from 'react-native-linear-gradient';
 import Animated, {Keyframe} from 'react-native-reanimated';
 
@@ -28,7 +28,7 @@ const Welcome = ({navigation}) => {
       <View style={styles.WelcomeView}>
         <LinearGradient
           style={styles.bgdecoration}
-          colors={['#E5BDF6', '#D8DEDE']}
+          colors={['#80FF72', '#7EE8FA']}
         />
         {/* <View style={styles.bgdecoration} /> */}
         <View>
@@ -39,9 +39,9 @@ const Welcome = ({navigation}) => {
                 fontSize: 40,
               },
             ]}>
-            CBT
+            BT App
           </Text>
-          <Text style={styles.title}>Cloths-Books-Trash Centre</Text>
+          <Text style={styles.title}>Books and Trash App</Text>
         </View>
         <Animated.Image
           entering={keyframe}
